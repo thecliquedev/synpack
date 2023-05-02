@@ -6379,8 +6379,8 @@ ol.comment-list li.comment .comment-respond .comment-form p {
 }
 .widget-testimonial .testimonial-position{
 	text-transform:uppercase;
-	color:#888q;
-	font-size:12px;
+	color: #888;
+	font-size: 12px;
 	font-style: inherit;
 }
 .widget-testimonial .testimonial-position p{
@@ -6587,10 +6587,10 @@ a,
     margin-left: 5px;
     margin-right: 5px;
     font-size: 13px;
-    display: inline-block;
     cursor: pointer;
     border-width: 0px;
     border-style: solid;
+    display: none;
 }
 .owl-prev:hover,
 .owl-prev:active,

@@ -307,6 +307,20 @@ strong {
 .bg-primary a:hover{ 
 	color:#fff; 
 }
+
+.newrow{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: auto;
+}
+
+.newrow > video {
+    width: 70%; !important
+    height: auto; 
+}
+
 /*text align*/
 
 .text-left {

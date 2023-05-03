@@ -93,10 +93,10 @@
 .owl-btn-1.primary .owl-next:hover,
 .owl-btn-2.primary .owl-prev:hover, 
 .owl-btn-2.primary .owl-next:hover{
-    background-color: #15a1b0;
+    background-color: #d33138;
 }
 .about-us .dlab-tabs .nav-tabs li.active{
-	border-right: 4px solid #1c98a2;
+	border-right: 4px solid #d33138;
 }
 /* Rgba color */
 .dlab-info-has.bg-primary,
@@ -157,16 +157,16 @@ h6 a:hover,
 .comments-area p:before,
 .about-8-service .icon-bx-wraper:hover a,
 .header-nav .nav > li > a.nav-link.active{
-    color: #15a1b0;
+    color: #d33138;
 }
 .text-primary{
-	color: #15a1b0!important;
+	color: #d33138!important;
 }
 @media only screen and (max-width: 991px) {
 	.nav-dark.header-nav .nav > li > a:hover, 
 	.nav-dark.header-nav .nav > li > a:active, 
 	.nav-dark.header-nav .nav > li > a:focus{
-		color: #096377;
+		color: #8a0c12;
 	}
 }
 /*===================== 
@@ -189,13 +189,13 @@ input[type="radio"] + label:hover:before,
 .owl-theme.dots-style-3 .owl-dots .owl-dot.active, 
 .owl-theme.dots-style-3 .owl-dots .owl-dot:hover,
 .side-bar .widget_tag_cloud a:hover{
-    border-color: #096377;
+    border-color: #8a0c12;
 }
 .owl-item.active.center .testimonial-8 .testimonial-text:after{
-	border-top:25px solid #096377;
+	border-top:25px solid #8a0c12;
 }
 .dlab-tabs.border-top .nav-tabs > li.active > a{
-	border-top-color: #096377;
+	border-top-color: #8a0c12;
 }
 /*===================== 
 	Secondery bg color

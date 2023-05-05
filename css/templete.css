@@ -842,6 +842,60 @@
   display: block;
   font-size: 18px;
 }
+
+/* CAREERS */
+.career-roles{
+  margin-left: 40px;
+}
+
+.career-roles li::marker{
+  font-size: 1.5em;
+  color: #000;
+}
+
+.career-roles li{
+  margin-left: 40px;
+}
+
+.career-roles > li{
+  margin-bottom: 20px;
+}
+
+.career-roles li ul li::marker{
+  content: "> ";
+  font-size: 1.2em;
+}
+
+
+.carrer-btn{
+  background-color: #000;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+/* QUALITY */
+.quality-title{
+  font-size: 4vw;
+}
+
+.quality-list{
+  margin-left: 40px;
+  list-style-type: decimal !important;
+}
+
+.quality-list li{
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+/* ABOUT */
+.about-content{
+  margin-left: 40px;
+}
+
+
+
 /* ==== Contact Info  ==== */
 .contact-information {
   display: flex;
@@ -2146,9 +2200,24 @@ content: "";
   .dlab-bnr-inr.no-bg-bnr .dlab-bnr-inr-entry h1 {
     text-align: left;
   }
+  .dlab-bnr-inr.no-bg-bnr.career .dlab-bnr-inr-entry h1 {
+    text-align: center;
+  }
+  .dlab-bnr-inr.no-bg-bnr.infra .dlab-bnr-inr-entry h1 {
+    text-align: center;
+  }
   .dlab-bnr-inr.no-bg-bnr {
     padding: 30px 0 30px;
     background: #f4f4f4;
+  }
+
+  .dlab-bnr-inr.no-bg-bnr.career {
+    padding: 70px 0 30px;
+    background: #ffffff;
+  }
+  .dlab-bnr-inr.no-bg-bnr.infra {
+    padding: 70px 0 30px;
+    background: #ffffff;
   }
   .dlab-bnr-inr.no-bg-bnr p {
     margin-bottom: 0;
